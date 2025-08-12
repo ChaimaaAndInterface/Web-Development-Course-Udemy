@@ -1,1 +1,8 @@
-12/08/2025 - Introduction
+12/08/2025
+Introduction
+
+chapters of this course (project details)
+1) web portfolio 
+2) the brogram - the 30 simple workouts program 
+3) e-commerce store (with stripe)
+4) expenny - database and firebase
