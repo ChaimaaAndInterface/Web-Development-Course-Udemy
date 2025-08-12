@@ -6,3 +6,13 @@ chapters of this course (project details)
 2) the brogram - the 30 simple workouts program 
 3) e-commerce store (with stripe)
 4) expenny - database and firebase
+
+
+---------------------
+start with "web portfolio"
+
+- define project environment and structure 
+- make html semantic element 
+- fanta.css 
+- fontawesome icon and cdn 
+
