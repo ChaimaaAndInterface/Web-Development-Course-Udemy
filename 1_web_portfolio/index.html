@@ -45,7 +45,9 @@
         </h5>
         <div class="links-container">
           <i class="fa-solid link-arrow fa-arrow-right"></i>
-          <a href="mailto:mehedi.interface@gmail.com" target="_blank">Email me</a>
+          <a href="mailto:mehedi.interface@gmail.com" target="_blank"
+            >Email me</a
+          >
           <a href="https://github.com/ChaimaaAndInterface" target="_blank"
             >GitHub</a
           >
@@ -57,44 +59,55 @@
         </div>
 
         <div id="play-game">
-            <button onclick="">Play game?</button>
+          <button onclick="playGame()">Play game?</button>
         </div>
-        <div class="color-div" style="display: none;">
-            <h4>Pick a color</h4>
-            <p style="display: none;">Great... now it's ruined!</p>
-            <input type="color" name="" id="color-picker" onchange="" value="#0084ff">
-            <button onclick="" style="display: none;">Reset</button>
+        <div class="color-div" style="display: none">
+          <h4>Pick a color</h4>
+          <p style="display: none">Great... now it's ruined!</p>
+          <input
+            type="color"
+            name=""
+            id="color-picker"
+            onchange="changeColor()"
+            value="#0084ff"
+          />
+          <button onclick="resetColor()" style="display: none">Reset</button>
         </div>
       </section>
 
       <section>
         <h2>Skills</h2>
         <table>
-            <thead>
-                <tr>
-                    <th>Area</th>
-                    <th>Technologies</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>ReactJS | React Native | NextJS | NodeJS & ExpressJS | SvelteKit | Qwik</td>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td>Data analysis | Django | Data visulization</td>
-                </tr>
-                <tr>
-                    <td>Web</td>
-                    <td>TailwindCSS | FantaCSS | Firebase | PostgreSQL | CI/CD | GIT | Docker | Kubernetes | AWS</td>
-                </tr>
-                <tr>
-                    <td>Design</td>
-                    <td>Canvas | Pixlr | Microsoft Paint</td>
-                </tr>
-                
-            </tbody>
+          <thead>
+            <tr>
+              <th>Area</th>
+              <th>Technologies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>JavaScript</td>
+              <td>
+                ReactJS | React Native | NextJS | NodeJS & ExpressJS | SvelteKit
+                | Qwik
+              </td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Data analysis | Django | Data visulization</td>
+            </tr>
+            <tr>
+              <td>Web</td>
+              <td>
+                TailwindCSS | FantaCSS | Firebase | PostgreSQL | CI/CD | GIT |
+                Docker | Kubernetes | AWS
+              </td>
+            </tr>
+            <tr>
+              <td>Design</td>
+              <td>Canvas | Pixlr | Microsoft Paint</td>
+            </tr>
+          </tbody>
         </table>
       </section>
 
@@ -116,41 +129,28 @@
                   <p>NextJS</p>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam praesentium, blanditiis consequuntur soluta porro consectetur iste eos ut ab! Sequi similique nobis quod et necessitatibus animi rem est esse.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laudantium laboriosam praesentium, blanditiis consequuntur
+                soluta porro consectetur iste eos ut ab! Sequi similique nobis
+                quod et necessitatibus animi rem est esse.
+              </p>
               <div class="project-links">
-                <a href="https://github.com/ChaimaaAndInterface" target="_blank">Live</a>
-                <a href="https://github.com/ChaimaaAndInterface" target="_blank">GitHub</a>
+                <a href="https://github.com/ChaimaaAndInterface" target="_blank"
+                  >Live</a
+                >
+                <a href="https://github.com/ChaimaaAndInterface" target="_blank"
+                  >GitHub</a
+                >
               </div>
             </div>
             <div class="img-div">
-              <img src="./public/brogram.png" alt="" class="big-img" alt="smoljames-thumbnail">
-            </div>
-          </div>
-
-          
-          <div class="project-card">
-            <div>
-              <p>July, 2023</p>
-              <h4>Smoljames</h4>
-              <div class="tech-list">
-                <div class="card-button-secondary">
-                  <p>NextJS</p>
-                </div>
-                <div class="card-button-secondary">
-                  <p>NextJS</p>
-                </div>
-                <div class="card-button-secondary">
-                  <p>NextJS</p>
-                </div>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam praesentium, blanditiis consequuntur soluta porro consectetur iste eos ut ab! Sequi similique nobis quod et necessitatibus animi rem est esse.</p>
-              <div class="project-links">
-                <a href="https://github.com/ChaimaaAndInterface" target="_blank">Live</a>
-                <a href="https://github.com/ChaimaaAndInterface" target="_blank">GitHub</a>
-              </div>
-            </div>
-            <div class="img-div">
-              <img src="./public/brogram.png" alt="" class="big-img" alt="smoljames-thumbnail">
+              <img
+                src="./public/brogram.png"
+                alt=""
+                class="big-img"
+                alt="smoljames-thumbnail"
+              />
             </div>
           </div>
 
@@ -169,21 +169,72 @@
                   <p>NextJS</p>
                 </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam praesentium, blanditiis consequuntur soluta porro consectetur iste eos ut ab! Sequi similique nobis quod et necessitatibus animi rem est esse.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laudantium laboriosam praesentium, blanditiis consequuntur
+                soluta porro consectetur iste eos ut ab! Sequi similique nobis
+                quod et necessitatibus animi rem est esse.
+              </p>
               <div class="project-links">
-                <a href="https://github.com/ChaimaaAndInterface" target="_blank">Live</a>
-                <a href="https://github.com/ChaimaaAndInterface" target="_blank">GitHub</a>
+                <a href="https://github.com/ChaimaaAndInterface" target="_blank"
+                  >Live</a
+                >
+                <a href="https://github.com/ChaimaaAndInterface" target="_blank"
+                  >GitHub</a
+                >
               </div>
             </div>
             <div class="img-div">
-              <img src="./public/brogram.png" alt="" class="big-img" alt="smoljames-thumbnail">
+              <img
+                src="./public/brogram.png"
+                alt=""
+                class="big-img"
+                alt="smoljames-thumbnail"
+              />
             </div>
           </div>
 
-
+          <div class="project-card">
+            <div>
+              <p>July, 2023</p>
+              <h4>Smoljames</h4>
+              <div class="tech-list">
+                <div class="card-button-secondary">
+                  <p>NextJS</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>NextJS</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>NextJS</p>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laudantium laboriosam praesentium, blanditiis consequuntur
+                soluta porro consectetur iste eos ut ab! Sequi similique nobis
+                quod et necessitatibus animi rem est esse.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/ChaimaaAndInterface" target="_blank"
+                  >Live</a
+                >
+                <a href="https://github.com/ChaimaaAndInterface" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+            <div class="img-div">
+              <img
+                src="./public/brogram.png"
+                alt=""
+                class="big-img"
+                alt="smoljames-thumbnail"
+              />
+            </div>
+          </div>
         </div>
       </section>
-
     </main>
 
     <footer>
@@ -195,6 +246,42 @@
       </p>
     </footer>
 
-    <script></script>
+    <script>
+      // This is where we create the interactivity for our little color switching game.
+
+      // 1. select all the html elements so that we can later manipulate them
+      const body = document.querySelector("body");
+      const colorInput = document.getElementById("color-picker");
+      const colorDiv = document.querySelector(".color-div");
+      const hiddentText = document.querySelector(".color-div p");
+      const resetBtn = document.querySelector(".color-div button"); // Corrected variable name from 'restBtn' for clarity
+      const playBtn = document.getElementById("play-game");
+
+      // 2. create the functions
+      function playGame() {
+        colorDiv.style.display = "block";
+        playBtn.style.display = "none";
+      }
+
+      function changeColor() {
+        // take the users selected color on the input, and assign it to be background color of the website
+        const selectedColor = colorInput.value; // FIX: Case sensitivity, was 'ColorInput'
+        body.style.background = selectedColor;
+        resetBtn.style.display = "block"; // FIX: Typo, was 'disply'
+        hiddentText.style.display = "block"; // FIX: Typo, was 'disply'
+        colorInput.style.display = "none"; // FIX: Typo, was 'disply'
+      }
+
+      function resetColor() {
+        body.style.background = "white";
+        colorInput.style.display = "block"; // Resetting the color input to be visible for the next round
+        hiddentText.style.display = "none";
+        resetBtn.style.display = "none";
+        colorDiv.style.display = "none";
+        playBtn.style.display = "block"; // IMPROVEMENT: Makes the game playable again without a refresh
+      }
+
+      // 3. is to assign the functions to the buttons by adding them function call to the actual elements (done above in the html code)
+    </script>
   </body>
 </html>

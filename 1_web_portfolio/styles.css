@@ -99,3 +99,18 @@ section {
     padding: 0.1rem 0.5rem;
     border-radius: var(--border-radius-small);
 }
+
+.tech-list p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 650px) {
+    .project-card {
+        flex-direction: row;
+    }
+
+    .project-card .img-div {
+        max-width: 30%;
+        
+    }
+}
