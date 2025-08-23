@@ -1,18 +1,13 @@
-12/08/2025
-Introduction
+first i introduced with web development when i was in high school diploma. and that time i learned html, css and javascript. and now after a long time i decided to take a serious jump and moving forwards with more area as well. 
 
-chapters of this course (project details)
-1) web portfolio 
-2) the brogram - the 30 simple workouts program 
-3) e-commerce store (with stripe)
-4) expenny - database and firebase
+so i purchesed a course from udemy and it's quite nice. 
+here total cover 4 project during this course. and today i finished my project. 
 
+now i'm try to add more features and build a my own portfolio. 
 
----------------------
-start with "web portfolio"
+so in this project i've learned
+- review html, css and javascript function 
+- but in css part mostly introduce with fanta.css which is kind of prebuild code. 
+- so html, css and javascript knowledge is mendotary
 
-- define project environment and structure 
-- make html semantic element 
-- fanta.css 
-- fontawesome icon and cdn 
-
+based on this information write a blog post type article 
